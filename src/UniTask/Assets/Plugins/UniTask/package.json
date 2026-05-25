@@ -1,12 +1,27 @@
 {
-    "name": "com.cysharp.unitask",
+    "name": "thanhdv.fork.cysharp.unitask",
     "displayName": "UniTask",
-    "author": { "name": "Cysharp, Inc.", "url": "https://cysharp.co.jp/en/" },
+    "author": {
+        "name": "Cysharp, Inc.",
+        "url": "https://cysharp.co.jp/en/"
+    },
     "version": "2.5.11",
-    "unity": "2018.4",
+    "unity": "2022.3",
     "description": "Provides an efficient async/await integration to Unity.",
-    "keywords": [ "async/await", "async", "Task", "UniTask" ],
+    "keywords": [
+        "async/await",
+        "async",
+        "Task",
+        "UniTask"
+    ],
     "license": "MIT",
     "category": "Task",
-    "dependencies": {}
+    "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ThanhDV143/Fork.Lib.UniTask.git"
+    },
+    "publishConfig": {
+        "registry": "https://upm.thanhdv.com/"
+    }
 }
